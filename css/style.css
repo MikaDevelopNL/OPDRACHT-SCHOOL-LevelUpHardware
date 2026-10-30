@@ -18,8 +18,14 @@
     0 0 5px #e89ee5, 0 0 10px #e89ee5, 0 0 20px #e89ee5, 0 0 40px #e89ee5;
   --bg-color: #23262d;
   --header-bg-color: #2b2f32;
+  --footer-bg-color: #2b2f32;
 
   --hero-font: "Comfortaa", sans-serif;
+}
+
+html,
+body {
+  min-height: 100%;
 }
 
 body {
@@ -27,6 +33,9 @@ body {
   color: var(--color-white);
   line-height: 1.6;
   font-size: 16px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Header content */
@@ -86,6 +95,9 @@ body {
 }
 
 /* Main content */
+main {
+  flex: 1;
+}
 /* Home */
 
 /* over ons */
@@ -93,12 +105,60 @@ body {
 /* producten */
 
 /* Footer content */
+footer {
+  background-color: var(--footer-bg-color);
+  width: 100%;
+  padding: 1rem 0 0;
+}
 
+footer .footer-content {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+footer .footer-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .footer-nav a {
+  color: var(--color-white);
+  text-decoration: none;
+  margin: 0.5rem 0;
+}
+
+footer .footer-content .footer-address {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+footer .footer-content .footer-address .footer-address-content {
+  display: none;
+}
+
+.footer-maps {
+  width: 40%;
+  height: auto;
+  margin-left: auto;
+}
+
+footer .footer-copyright {
+  width: 100%;
+  font-size: 0.5rem;
+  text-align: center;
+  margin-top: 1rem;
+  padding: 0.5rem 0;
+  border-top: 1px solid var(--color-white);
+}
 /* Media Queries */
 
 @media (min-width: 1024px) {
   body {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   /* Header content */
@@ -130,4 +190,25 @@ body {
   /* producten */
 
   /* Footer content */
+  footer .footer-nav a:hover {
+    color: var(--color-neon-pink);
+    text-shadow: var(--glow-pink);
+  }
+
+  footer .footer-content .footer-address {
+    margin-left: auto;
+    margin-right: 0;
+  }
+  .footer-maps {
+    margin-left: 0;
+  }
+
+  footer .footer-content .footer-address .footer-address-content {
+    display: block;
+    margin: auto 1rem auto 0;
+  }
+
+  footer .footer-copyright {
+    font-size: 0.6rem;
+  }
 }
