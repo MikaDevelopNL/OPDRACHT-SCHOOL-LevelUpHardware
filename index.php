@@ -1,22 +1,21 @@
 <!doctype html>
-<html lang="en">
-  <head>
+<html lang="nl">
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Level Up Hardware</title>
     <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <header>
-      Hallo
-    </header>
+</head>
+
+<body>
+    <?php require __DIR__ . '/includes/header.php'; ?>
 
     <main>
 
     </main>
 
-    <footer>
+    <?php require __DIR__ . '/includes/footer.php'; ?>
+</body>
 
-    </footer>
-  </body>
 </html>

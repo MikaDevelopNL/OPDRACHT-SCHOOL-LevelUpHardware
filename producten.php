@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="nl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,16 +7,12 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      hallo
-    </header>
+    <?php require __DIR__ . '/includes/header.php'; ?>
 
     <main>
 
     </main>
 
-    <footer>
-
-    </footer>
+    <?php require __DIR__ . '/includes/footer.php'; ?>
   </body>
 </html>
