@@ -30,30 +30,32 @@
                     we de nostalgische sfeer van de
                     jaren arcades met de brute
                     kracht van de van
-                    morgen.<br><br>
-                    <strong>Waarom kiezen voor ons?</strong>
-                </p>
-                <img class="main-img" src="/images/laptop.webp" alt="foto van een laptop">
+                    morgen.</p>
+                <img class="main-img laptop" src="/images/laptop.webp" alt="foto van een laptop">
             </section>
-            <section class="main-section">
-                <img class="main-img" src="/images/storefront.png" alt="winkelpand van Level Up Hardware">
-                <ul class="main-list">
-                    <li><strong>Curated Selectie:</strong> Wij
-                        verkopen alleen laptops waar
-                        we zelf achter staan. Geen concessies
-                        op bouwkwaliteit
-                        of koeling.</li>
-                    <li><strong>Expert Onderhoud:</strong> Van het
-                        vervangen van koelpasta tot
-                        complexe hardware-upgrades:
-                        wj verlengen de levensduur
-                        vanje machine.</li>
-                    <li><strong>advies:</strong> Geen
-                        standaard verkooppraatjes.
-                        maar eerlijk advies gebaseerd
-                        op jouw favoriete games en
-                        workflow.</li>
-                </ul>
+            <section class="main-section reverse">
+                <img class="main-img neon-border storefront" src="/images/storefront.png"
+                    alt="winkelpand van Level Up Hardware">
+                <div>
+                    <p class="main-txt"><strong>Waarom kiezen voor ons?</strong><br><br></p>
+                    <ul class="main-list">
+                        <li><strong>Curated Selectie:</strong> Wij
+                            verkopen alleen laptops waar
+                            we zelf achter staan. Geen concessies
+                            op bouwkwaliteit
+                            of koeling.</li>
+                        <li><strong>Expert Onderhoud:</strong> Van het
+                            vervangen van koel.pasta tot
+                            complexe hardware-upgrades:
+                            wj verlengen de levensduur
+                            vanje machine.</li>
+                        <li><strong>advies:</strong> Geen
+                            standaard verkooppraatjes.
+                            maar eerlijk advies gebaseerd
+                            op jouw favoriete games en
+                            workflow.</li>
+                    </ul>
+                </div>
             </section>
         </div>
     </main>

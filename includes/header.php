@@ -18,15 +18,9 @@
                 <img src="/images/logo.png" alt="logo level up hardware" class="logo" />
             </a>
             <ul class="nav-links">
-                <a href="index.php">
-                    <li>Home</li>
-                </a>
-                <a href="over-ons.php">
-                    <li>Over ons</li>
-                </a>
-                <a href="producten.php">
-                    <li>Producten</li>
-                </a>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="over-ons.php">Over ons</a></li>
+                <li><a href="producten.php">Producten</a></li>
             </ul>
 
             <button class="hamburger" aria-label="Open menu" aria-expanded="false">

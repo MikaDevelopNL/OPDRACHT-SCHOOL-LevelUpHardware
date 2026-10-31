@@ -16,28 +16,37 @@
             <h1 class="title">Producten</h1>
             <h3 class="subtitle">Voor de Serieuze Gamer</h3>
         </div>
-        <div class="main-content">
+        <div class="main-content producten">
             <section class="main-section">
                 <div class="main-product">
-                    <img src="/images/laptop.webp" alt="foto van een laptop" class="product-img">
-                    <h2 class="product-title">Gaming Laptop XI</h2>
-                    <p class="product-price"><data value="€1499">€1499</data></p>
-                    <p class="product-txt">Krachtige laptop met de nieuwste GPLJ vaar ultieme
-                        gaming prestaties.</p>
+                    <img src="/images/laptop.webp" alt="foto van een laptop" class="product-img neon-border">
+                    <div>
+                        <h2 class="product-title">Gaming Laptop XI</h2>
+                        <p class="product-price">€1499</p>
+                        <p class="product-txt">Krachtige laptop met de nieuwste GPLJ vaar ultieme
+                            gaming prestaties.</p>
+                    </div>
+
                 </div>
                 <div class="main-product">
-                    <img src="/images/pc.png" alt="foto van een pc kast" class="product-img">
-                    <h2 class="product-title">Custom Gaming PC</h2>
-                    <p class="product-price"><data value="€1999">€1999</data></p>
-                    <p class="product-txt">Op maat gemaakte desktop met topkwaliteit
-                        componenten voor maximale snelheid.</p>
+                    <img src="/images/pc.png" alt="foto van een pc kast" class="product-img neon-border">
+                    <div>
+                        <h2 class="product-title">Custom Gaming PC</h2>
+                        <p class="product-price">€1999</p>
+                        <p class="product-txt">Op maat gemaakte desktop met topkwaliteit
+                            componenten voor maximale snelheid.</p>
+                    </div>
+
                 </div>
                 <div class="main-product">
-                    <img src="/images/headset.webp" alt="foto van een headset" class="product-img">
-                    <h2 class="product-title">Pro Gaming Headset</h2>
-                    <p class="product-price"><data value="€199">€199</data></p>
-                    <p class="product-txt">Comfortabele headset met surround sound voor een
-                        meeslepende game-ervaring.</p>
+                    <img src="/images/headset.webp" alt="foto van een headset" class="product-img neon-border">
+                    <div>
+                        <h2 class="product-title">Pro Gaming Headset</h2>
+                        <p class="product-price">€199</p>
+                        <p class="product-txt">Comfortabele headset met surround sound voor een
+                            meeslepende game-ervaring.</p>
+                    </div>
+
                 </div>
             </section>
         </div>

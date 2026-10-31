@@ -17,30 +17,33 @@
             <h3 class="subtitle">LevelUp Hardware</h3>
         </div>
         <div class="main-content">
-            <section class="main-section">
-                <p class="main-txt">Welkom bij Level up Hardware. de
-                    plek waar jouw gaming-dromen
-                    werkelijkheid worden. Als eigenaar
-                    en drijvende kracht achter deze
-                    zaak. is Daan meer dan alleen een
-                    ondernemer. hij is een in hart
-                    en nieren en een absolute
-                    hardware-enthousœsteling.<br><br>
-                    Al sinds zijn tienerjaren. omringd
-                    door de gloed van CAT-schermen
-                    en de beat van
-                    sgnthwave. sleutelde Daan aan
-                    zijn eigen gaming-rigs. Wat begon
-                    als een hobbg — finetunen van
-                    elke component voor die extra
-                    frame per seconde, het
-                    optimaliseren van koelsystemen
-                    voor piekprestaties — groeide al
-                    snel uit tot een diepgewortelde
-                    passie.
-                </p>
-                <img class="main-img" src="/images/daan.jpg" alt="portret van de eigenaar Daan">
-                <p class="main-txt"><strong>Jouw Game is zjn Prioriteit</strong><br><br>OF je nu de grenzen van virtual
+            <section class="main-section over-ons">
+                <div>
+                    <p class="main-txt">Welkom bij Level up Hardware. de
+                        plek waar jouw gaming-dromen
+                        werkelijkheid worden. Als eigenaar
+                        en drijvende kracht achter deze
+                        zaak. is Daan meer dan alleen een
+                        ondernemer. hij is een in hart
+                        en nieren en een absolute
+                        hardware-enthousœsteling.<br><br>
+                        Al sinds zijn tienerjaren. omringd
+                        door de gloed van CAT-schermen
+                        en de beat van
+                        sgnthwave. sleutelde Daan aan
+                        zijn eigen gaming-rigs. Wat begon
+                        als een hobbg — finetunen van
+                        elke component voor die extra
+                        frame per seconde, het
+                        optimaliseren van koelsystemen
+                        voor piekprestaties — groeide al
+                        snel uit tot een diepgewortelde
+                        passie.
+                    </p>
+                    <img class="main-img neon-border daan" src="/images/daan.jpg" alt="portret van de eigenaar Daan">
+                </div>
+
+                <p class="main-txt"><strong>Jouw Game is zijn Prioriteit</strong><br><br>OF je nu de grenzen van virtual
                     realitg verkent, in
                     competitieverband strijdt om de
                     hoogste rang. of gewoon wilt
