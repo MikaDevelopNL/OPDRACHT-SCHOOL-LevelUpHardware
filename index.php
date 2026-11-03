@@ -24,7 +24,7 @@
                     bent naar een nieuwe laptop die de
                     nieuwste RAR-titels moeiteloos
                     draait, of je huidige rig een
-                    professionele onderrnJdsbeurt
+                    professionele onderhoudsbeurt
                     nodig heeft; wij staan voor je klaar.<br><br>
                     In onze Fusieke winkel combineren
                     we de nostalgische sfeer van de
