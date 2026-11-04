@@ -1,17 +1,10 @@
-<!doctype html>
-<html lang="nl">
+<?php 
+$pageTitle = "Level Up Hardware";
+require __DIR__ . '/includes/header.php'; 
+?>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Level Up Hardware</title>
-    <link rel="stylesheet" href="css/style.css" />
-</head>
-
-<body>
-    <?php require __DIR__ . '/includes/header.php'; ?>
-
-    <main>
+<main>
+    <div class="container">
         <div class="hero">
             <h1 class="title">Producten</h1>
             <h3 class="subtitle">Voor de Serieuze Gamer</h3>
@@ -20,17 +13,16 @@
             <section class="main-section">
                 <div class="main-product">
                     <img src="/images/laptop.webp" alt="foto van een laptop" class="product-img neon-border">
-                    <div>
+                    <div class="product-info">
                         <h2 class="product-title">Gaming Laptop XI</h2>
                         <p class="product-price">€1499</p>
                         <p class="product-txt">Krachtige laptop met de nieuwste GPLJ vaar ultieme
                             gaming prestaties.</p>
                     </div>
-
                 </div>
                 <div class="main-product">
                     <img src="/images/pc.png" alt="foto van een pc kast" class="product-img neon-border">
-                    <div>
+                    <div class="product-info">
                         <h2 class="product-title">Custom Gaming PC</h2>
                         <p class="product-price">€1999</p>
                         <p class="product-txt">Op maat gemaakte desktop met topkwaliteit
@@ -40,19 +32,21 @@
                 </div>
                 <div class="main-product">
                     <img src="/images/headset.webp" alt="foto van een headset" class="product-img neon-border">
-                    <div>
+                    <div class="product-info">
                         <h2 class="product-title">Pro Gaming Headset</h2>
                         <p class="product-price">€199</p>
                         <p class="product-txt">Comfortabele headset met surround sound voor een
                             meeslepende game-ervaring.</p>
                     </div>
-
                 </div>
             </section>
         </div>
-    </main>
+    </div>
+</main>
 
-    <?php require __DIR__ . '/includes/footer.php'; ?>
+<?php 
+    require __DIR__ . '/includes/footer.php'; 
+    ?>
 </body>
 
 </html>

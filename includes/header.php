@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Level Up Hardware</title>
+    <title><?php 
+        // Controleer of de variabele bestaat, anders toon een standaardnaam
+        echo isset($pageTitle) ? $pageTitle : "Mijn Standaard Website Titel"; 
+        ?></title>
     <link rel="stylesheet" href="css/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
@@ -30,6 +33,3 @@
             </button>
         </nav>
     </header>
-</body>
-
-</html>

@@ -1,17 +1,10 @@
-<!doctype html>
-<html lang="nl">
+<?php 
+$pageTitle = "Level Up Hardware";
+require __DIR__ . '/includes/header.php'; 
+?>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Level Up Hardware</title>
-    <link rel="stylesheet" href="css/style.css" />
-</head>
-
-<body>
-    <?php require __DIR__ . '/includes/header.php'; ?>
-
-    <main>
+<main>
+    <div class="container">
         <div class="hero">
             <h1 class="title">High-end Gaming Gear</h1>
             <h3 class="subtitle">In Breda</h3>
@@ -49,7 +42,7 @@
                             complexe hardware-upgrades:
                             wj verlengen de levensduur
                             vanje machine.</li>
-                        <li><strong>advies:</strong> Geen
+                        <li><strong>Advies:</strong> Geen
                             standaard verkooppraatjes.
                             maar eerlijk advies gebaseerd
                             op jouw favoriete games en
@@ -58,9 +51,9 @@
                 </div>
             </section>
         </div>
-    </main>
+    </div>
+</main>
 
-    <?php require __DIR__ . '/includes/footer.php'; ?>
-</body>
-
-</html>
+<?php
+ require __DIR__ . '/includes/footer.php'; 
+ ?>

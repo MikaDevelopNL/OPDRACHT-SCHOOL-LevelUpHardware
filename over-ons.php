@@ -1,17 +1,10 @@
-<!doctype html>
-<html lang="nl">
+<?php
+$pageTitle = "Over Ons - Level Up Hardware";
+require __DIR__ . '/includes/header.php'; 
+?>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Level Up Hardware</title>
-    <link rel="stylesheet" href="css/style.css" />
-</head>
-
-<body>
-    <?php require __DIR__ . '/includes/header.php'; ?>
-
-    <main>
+<main>
+    <div class="container">
         <div class="hero">
             <h1 class="title">Over Ons</h1>
             <h3 class="subtitle">LevelUp Hardware</h3>
@@ -26,17 +19,17 @@
                         zaak. is Daan meer dan alleen een
                         ondernemer. hij is een in hart
                         en nieren en een absolute
-                        hardware-enthousœsteling.<br><br>
+                        hardware-enthousiasteling.<br><br>
                         Al sinds zijn tienerjaren. omringd
                         door de gloed van CAT-schermen
                         en de beat van
                         sgnthwave. sleutelde Daan aan
                         zijn eigen gaming-rigs. Wat begon
-                        als een hobbg — finetunen van
+                        als een hobby finetunen van
                         elke component voor die extra
                         frame per seconde, het
                         optimaliseren van koelsystemen
-                        voor piekprestaties — groeide al
+                        voor piekprestaties groeide al
                         snel uit tot een diepgewortelde
                         passie.
                     </p>
@@ -57,9 +50,12 @@
                     écht domineren.</p>
             </section>
         </div>
-    </main>
+    </div>
+</main>
 
-    <?php require __DIR__ . '/includes/footer.php'; ?>
+<?php
+     require __DIR__ . '/includes/footer.php'; 
+     ?>
 </body>
 
 </html>
